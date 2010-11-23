@@ -1,5 +1,5 @@
 [Config]
-Compilator.FileName=start_project.bat
+Compilator.FileName=ant.bat
 Compilator.PSPar=debug
 Compilator.Run=adb install -r "%ProjectDir%\bin\%ProjectName%-debug.apk"
 Compilator.DefaultDir=%ProjectDir%
@@ -24,24 +24,24 @@ navalbattle
 		+values
 			res\values\strings.xml
 	+src
-		src\com\fmi\android\navalbattle\navalbattle.java
+		src\com\navalbattle\navalbattle.java
 [Open project files]
-0=src\com\fmi\android\navalbattle\navalbattle.java
+0=src\com\navalbattle\navalbattle.java
 1=res\layout\main.xml
 2=res\values\strings.xml
 3=AndroidManifest.xml
 [Selected Project Files]
 Main=
-Selected=src\com\fmi\android\navalbattle\navalbattle.java
-[src\com\fmi\android\navalbattle\navalbattle.java]
+Selected=res\values\strings.xml
+[src\com\navalbattle\navalbattle.java]
 TopLine=1
-Caret=1,16
+Caret=26,13
 [res\layout\main.xml]
 TopLine=1
-Caret=24,10
+Caret=1,14
 [res\values\strings.xml]
 TopLine=1
 Caret=1,5
 [AndroidManifest.xml]
 TopLine=1
-Caret=1,1
+Caret=20,3

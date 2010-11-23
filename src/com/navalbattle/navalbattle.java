@@ -1,4 +1,4 @@
-package com.fmi.android.navalbattle;
+package com.navalbattle;
 
 import android.app.Activity;
 import android.os.Bundle;
