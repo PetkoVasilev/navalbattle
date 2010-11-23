@@ -1,0 +1,47 @@
+[Config]
+Compilator.FileName=start_project.bat
+Compilator.PSPar=debug
+Compilator.Run=adb install -r "%ProjectDir%\bin\%ProjectName%-debug.apk"
+Compilator.DefaultDir=%ProjectDir%
+Compilator.SaveAll=0
+Compilator.Capture=1
+Compilator.HideOutput=1
+Compilator.LogType=0
+DefaultDir=F:\Documents\Work\ФМИ\Програмиране с Андроид\navalbattle
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+navalbattle
+	+manifest
+		AndroidManifest.xml
+	+res
+		+layout
+			res\layout\main.xml
+		+values
+			res\values\strings.xml
+	+src
+		src\com\fmi\android\navalbattle\navalbattle.java
+[Open project files]
+0=src\com\fmi\android\navalbattle\navalbattle.java
+1=res\layout\main.xml
+2=res\values\strings.xml
+3=AndroidManifest.xml
+[Selected Project Files]
+Main=
+Selected=src\com\fmi\android\navalbattle\navalbattle.java
+[src\com\fmi\android\navalbattle\navalbattle.java]
+TopLine=1
+Caret=1,16
+[res\layout\main.xml]
+TopLine=1
+Caret=24,10
+[res\values\strings.xml]
+TopLine=1
+Caret=1,5
+[AndroidManifest.xml]
+TopLine=1
+Caret=1,1
