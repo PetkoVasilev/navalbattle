@@ -6,12 +6,80 @@
 	<application android:label="@string/app_name" 
 		android:name=".NavalBattleApp"
 		android:icon="@drawable/icon">
-		<activity android:name=".controller.MainMenuActivity"
-			android:label="@string/app_name">
+
+		<activity android:name="com.navalbattle.controller.SplashScreenActivity"
+    android:clearTaskOnLaunch="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.SPLASH_SCREEN_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
 		</activity>
+
+		<activity android:name="com.navalbattle.controller.MainMenuActivity"
+			android:excludeFromRecents="true"
+      android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.MAIN_MENU_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.navalbattle.controller.AboutActivity">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.ABOUT_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.navalbattle.controller.ChoseMissionActivity">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.CHOSE_MISSION_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.navalbattle.controller.ControlsActivity">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.CONTROLS_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="com.navalbattle.controller.GameActivity"
+			android:excludeFromRecents="true">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.GAME_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.navalbattle.controller.GameStatusActivity"
+			android:excludeFromRecents="true">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.GAME_STATUS_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="com.navalbattle.controller.LadderActivity">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.LADDER_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.navalbattle.controller.MultiplayerGameLobbyActivity">
+			<intent-filter>
+				<action android:name="com.navalbattle.controller.MULTIPLAYER_GAME_LOBBY_ACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
 	</application>
 </manifest> 

@@ -8,6 +8,7 @@ import java.util.Observer;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
@@ -67,6 +68,16 @@ public class MainMenuActivity extends Activity implements Observer,
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 
+	}
+	
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (event.getAction() == KeyEvent.ACTION_DOWN) {
+			if (keyCode == KeyEvent.KEYCODE_BACK) {
+				return true;
+			}
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 }
