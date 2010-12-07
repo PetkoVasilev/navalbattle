@@ -7,6 +7,12 @@ import android.app.Activity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+
+/**
+ * The activity of the multiplayer lobby screen. The place where players wait for new games and can host new game.
+ * @author Administrator
+ *
+ */
 public class MultiplayerGameLobbyActivity extends Activity implements Observer,
 		OnClickListener {
 
