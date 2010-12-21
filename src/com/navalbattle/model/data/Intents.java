@@ -18,48 +18,48 @@ public class Intents {
 	 * Intent, used for starting the {@link AboutActivity}.
 	 */
 	public final static Intent ABOUT_ACTIVITY_INTENT = new Intent(
-			"com.navalbattle.controller.ABOUT_ACTIVITY");
+			"com.navalbattle.controller.ABOUT_ACTIVITY"); //$NON-NLS-1$
 
 	/**
 	 * Intent, used for starting the {@link MainMenuActivity}.
 	 */
 	public final static Intent MAIN_MENU_ACTIVITY_INTENT = new Intent(
-			"com.navalbattle.controller.MAIN_MENU_ACTIVITY");
+			"com.navalbattle.controller.MAIN_MENU_ACTIVITY"); //$NON-NLS-1$
 	
    /**
 	 * Intent, used for starting the {@link ChoseMissionActivity}.
 	 */		
-	public final static Intent CHOSE_MISSION_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.CHOSE_MISSION_ACTIVITY");
+	public final static Intent CHOSE_MISSION_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.CHOSE_MISSION_ACTIVITY"); //$NON-NLS-1$
 
   /**
 	 * Intent, used for starting the {@link ControlsActivity}.
 	 */		
-	public final static Intent CONTROLS_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.CONTROLS_ACTIVITY");
+	public final static Intent CONTROLS_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.CONTROLS_ACTIVITY"); //$NON-NLS-1$
 
    /**
 	 * Intent, used for starting the {@link GameActivity}.
 	 */		
-	public final static Intent GAME_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.GAME_ACTIVITY");
+	public final static Intent GAME_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.GAME_ACTIVITY"); //$NON-NLS-1$
     
        /**
 	 * Intent, used for starting the {@link GameStatusActivity}.
 	 */		
-	public final static Intent GAME_STATUS_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.GAME_STATUS_ACTIVITY");
+	public final static Intent GAME_STATUS_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.GAME_STATUS_ACTIVITY"); //$NON-NLS-1$
 	
 	       /**
 	 * Intent, used for starting the {@link LadderActivity}.
 	 */		
-	public final static Intent LADDER_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.LADDER_ACTIVITY");
+	public final static Intent LADDER_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.LADDER_ACTIVITY"); //$NON-NLS-1$
 	
 		       /**
 	 * Intent, used for starting the {@link MultiplayerGameLobbyActivity}.
 	 */		
-	public final static Intent MULTIPLAYER_GAME_LOBBY_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.MULTIPLAYER_GAME_LOBBY_ACTIVITY");
+	public final static Intent MULTIPLAYER_GAME_LOBBY_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.MULTIPLAYER_GAME_LOBBY_ACTIVITY"); //$NON-NLS-1$
 	
 	 /**
 	 * Intent, used for starting the {@link SplashScreenActivity}.
 	 */		
-	public final static Intent SPLASH_SCREEN_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.SPLASH_SCREEN_ACTIVITY");
+	public final static Intent SPLASH_SCREEN_ACTIVITY_INTENT = new Intent("com.navalbattle.controller.SPLASH_SCREEN_ACTIVITY"); //$NON-NLS-1$
 	
 
 }

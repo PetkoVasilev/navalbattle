@@ -32,7 +32,7 @@ public class MainMenuModel extends Observable implements IMainMenuModel{
 		return mainMenuItems;
 	}
 
-	public void setMainMenuItems(String[] mainMenuItems) {
-		this.mainMenuItems = mainMenuItems;
+	public void setMainMenuItems(String[] value) {
+		mainMenuItems = value;
 	}
 }
