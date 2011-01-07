@@ -7,7 +7,9 @@
 	
 	<TextView android:layout_width="fill_parent"
 		android:layout_height="wrap_content" 
-		android:text="@string/initial_text" />
+		android:text="@string/initial_text"
+		android:gravity="center_horizontal"
+		android:textColor="#ff0000"/>
 
 	<ListView android:id="@+id/main_menu" 
 		android:layout_width="wrap_content"
