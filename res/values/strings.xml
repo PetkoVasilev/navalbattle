@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Naval Battle</string>
-    <string name="initial_text">Testing, testing... 1 2 3...</string>
+    <string name="initial_text">MAIN MENU</string>
     
     <string name="start">Start</string>
     <string name="quit">Quit</string>
@@ -18,13 +18,19 @@
     <string name="continue_to">Continue</string>
     <string name="next">Next</string>
     <string name="single">Single Player</string>
-    <string name="multi">Multi Player</string>
+    <string name="start_game">Start Game</string>
+	<string name="wiki">Wiki</string>
+	<string name="ladder">Ladder</string>
+	
+	<string name="want_sound">Do you want sound?</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
     
     <string-array name="main_menu_items">
-        <item>@string/single</item>
-        <item>@string/multi</item>
+        <item>@string/start_game</item>
+        <item>@string/ladder</item>
         <item>@string/controls</item>
         <item>@string/about</item>
-        <item>@string/quit</item>
+        <item>@string/wiki</item>
     </string-array>
 </resources>

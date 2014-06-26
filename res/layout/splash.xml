@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/splash_screen"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_gravity="center_horizontal"
+	android:background="@drawable/background">
+
+	<ImageView
+		android:id="@+id/logo"
+		android:src="@drawable/logo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true" />
+
+	<TextView
+		android:id="@+id/ok"
+		android:textColor="#000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dip"
+		android:layout_marginLeft="20dip"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:text="@string/yes" 
+		android:visibility="gone"/>
+
+	<TextView
+		android:id="@+id/no"
+		android:textColor="#000000"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dip"
+		android:layout_marginRight="20dip"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:text="@string/no" 
+		android:visibility="gone"
+		android:clickable="true"/>
+		
+	<TextView
+		android:id="@+id/soundQuestion"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/want_sound"
+		android:layout_marginBottom="20dip"
+		android:textColor="#000000"
+		android:gravity="center_horizontal"
+		android:layout_above="@id/ok"
+		android:visibility="gone"
+		android:clickable="true"/>
+
+</RelativeLayout>
+
